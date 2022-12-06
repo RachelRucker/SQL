@@ -3,20 +3,20 @@
 CREATE TABLE Rachels_Store (id INTEGER PRIMARY KEY, sku INTEGER, Product TEXT, Price INTEGER, Color TEXT, Size TEXT);
 
 INSERT INTO Rachels_Store VALUES (1, "11111", "Canmore Sweater", "$14.99", "Black", "S");
-INSERT INTO Rachels_Store VALUES (2, "11112", "Banff Sweater", "$15.99", "Black", "S");
+INSERT INTO Rachels_Store VALUES (2, "11112", "Banff Sweater", "$15.99", "Red", "M");
 INSERT INTO Rachels_Store VALUES (3, "11113", "Calgary Sweater", "$16.99", "Black", "S");
-INSERT INTO Rachels_Store VALUES (4, "11112", "Chicago Sweater", "$17.99", "Black", "S");
-INSERT INTO Rachels_Store VALUES (5, "11112", "London Sweater", "$18.99", "Black", "S");
-INSERT INTO Rachels_Store VALUES (6, "11112", "Paris Sweater", "$19.99", "Black", "S");
-INSERT INTO Rachels_Store VALUES (7, "11112", "Tokyo Sweater", "$24.99", "Black", "S");
-INSERT INTO Rachels_Store VALUES (8, "11112", "Los Angeles Sweater", "$34.99", "Black", "S");
-INSERT INTO Rachels_Store VALUES (9, "11112", "Alaska", "$44.99", "Black", "S");
-INSERT INTO Rachels_Store VALUES (10, "11112", "Estonia Sweater", "$21.99", "Black", "S");
-INSERT INTO Rachels_Store VALUES (11, "11112", "Seattle Sweater", "$22.99", "Black", "S");
-INSERT INTO Rachels_Store VALUES (12, "11112", "Italy Sweater", "$23.99", "White", "S");
-INSERT INTO Rachels_Store VALUES (13, "11112", "Oregon Sweater", "$25.99", "White", "S");
-INSERT INTO Rachels_Store VALUES (14, "11112", "Boston Sweater", "$27.99", "Black", "S");
-INSERT INTO Rachels_Store VALUES (15, "11112", "Alberta Sweater", "$31.99", "Black", "S");
+INSERT INTO Rachels_Store VALUES (4, "11114", "Chicago Sweater", "$17.99", "Purple", "S");
+INSERT INTO Rachels_Store VALUES (5, "11115", "London Sweater", "$18.99", "Black", "L");
+INSERT INTO Rachels_Store VALUES (6, "11116", "Paris Sweater", "$19.99", "Grey", "S");
+INSERT INTO Rachels_Store VALUES (7, "11117", "Tokyo Sweater", "$24.99", "Black", "S");
+INSERT INTO Rachels_Store VALUES (8, "11118", "Los Angeles Sweater", "$34.99", "Green", "M");
+INSERT INTO Rachels_Store VALUES (9, "11119", "Alaska", "$44.99", "Black", "S");
+INSERT INTO Rachels_Store VALUES (10, "11120", "Estonia Sweater", "$21.99", "Black", XL");
+INSERT INTO Rachels_Store VALUES (11, "11121", "Seattle Sweater", "$22.99", "Black", "S");
+INSERT INTO Rachels_Store VALUES (12, "11122", "Italy Sweater", "$23.99", "White", "S");
+INSERT INTO Rachels_Store VALUES (13, "11123", "Oregon Sweater", "$25.99", "White", "M");
+INSERT INTO Rachels_Store VALUES (14, "11124", "Boston Sweater", "$27.99", "Black", "M");
+INSERT INTO Rachels_Store VALUES (15, "11125", "Alberta Sweater", "$31.99", "Blue", "L");
 
 --display all data from the sweater store database into a table 
 
